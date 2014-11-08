@@ -12,17 +12,17 @@ plot_df <- data[data$date >= DATE1 & data$date <= DATE2,]
 # make the graphing data usable
 plot_df$Global_active_power <- as.numeric(as.character(plot_df$Global_active_power))
 
-# create I can see the graph
-hist(plot_df$Global_active_power,col="red",
+# create a graphing function
+graph <- function(plot_df) {
+  hist(plot_df$Global_active_power,col="red",
      main="Global Active Power",
      xlab="Global Active Power (kilowatts)")
+}
+
+# view the graph immediately
+graph(plot_df)
 
 # create the plot as a png
 png(filename = "plot1.png", width = 480, height = 480)
-#    units = "px", bg = "transparent")
-#    units = "px", pointsize = 12, bg = "white", res = NA,
-#    restoreConsole = TRUE)
-hist(plot_df$Global_active_power,col="red",
-     main="Global Active Power",
-     xlab="Global Active Power (kilowatts)")
+graph(plot_df)
 dev.off()
