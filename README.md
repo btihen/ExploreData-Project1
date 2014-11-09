@@ -3,7 +3,7 @@ ExploreData-Project1
 
 ## Plot 1
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot1.png "Plot 1")
-### Relevant Code
+**Relevant Code -- Plot 1**
 ```
 graph <- function(plot_df) {
   hist(plot_df$Global_active_power,col="red",
@@ -20,7 +20,7 @@ dev.off()
 
 ## Plot 2
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot2.png "Plot 2")
-### Relevant Code
+**Relevant Code -- Plot 2**
 ```
 graph <- function(plot_df) {
   plot(plot_df$date_time, plot_df$Global_active_power, type="n",
@@ -37,7 +37,7 @@ dev.off()
 
 ## Plot 3
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot3.png "Plot 3")
-### Relevant Code
+**Relevant Code -- Plot 3**
 ```
 graph <- function(plot_df) {
   plot(plot_df$date_time, plot_df$Sub_metering_1, type="n",
@@ -59,7 +59,7 @@ dev.off()
 
 ## Plot 4
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot4.png "Plot 4")
-### Relevant Code
+**Relevant Code -- Plot 4**
 ```
 # Global Active Power (over time)
 graph1 <- function(plot_df) {
