@@ -29,6 +29,8 @@ plot_df$Voltage                <- as.numeric(as.character(plot_df$Voltage))
 ```
 
 ## Plot 1
+### Graph
+![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot1.png "Plot 1")
 ### Relevant Code
 ```
 graph <- function(plot_df) {
@@ -42,11 +44,11 @@ png(filename = "plot1.png", width = 480, height = 480)
 graph(plot_df)
 dev.off()
 ```
-### Graph
-![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot1.png "Plot 1")
 
 
 ## Plot 2
+### Graph
+![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot2.png "Plot 2")
 ### Relevant Code
 ```
 graph <- function(plot_df) {
@@ -60,11 +62,11 @@ png(filename = "plot2.png", width = 480, height = 480)
 graph(plot_df)
 dev.off()
 ```
-### Graph
-![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot2.png "Plot 2")
 
 
 ## Plot 3
+### Graph
+![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot3.png "Plot 3")
 ### Relevant Code
 ```
 graph <- function(plot_df) {
@@ -84,10 +86,10 @@ png(filename = "plot3.png", width = 480, height = 480)
 graph(plot_df)
 dev.off()
 ```
-### Graph
-![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot3.png "Plot 3")
 
 ## Plot 4
+### Graph
+![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot4.png "Plot 4")
 ### Relevant Code
 ```
 # Global Active Power (over time)
@@ -133,5 +135,3 @@ graph3(plot_df)
 graph4(plot_df)
 dev.off()
 ```
-### Graph
-![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot4.png "Plot 4")
