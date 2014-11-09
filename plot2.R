@@ -17,7 +17,7 @@ plot_df$Global_active_power <- as.numeric(as.character(plot_df$Global_active_pow
 # Create a graphing function
 graph <- function(plot_df) {
   plot(plot_df$date_time, plot_df$Global_active_power, type="n",
-     ylab="Global Active Power (kilowatts)")
+     ylab="Global Active Power (kilowatts)", xlab="")
   lines(plot_df$date_time, plot_df$Global_active_power)
 }
 
