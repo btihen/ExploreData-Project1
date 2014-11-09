@@ -111,6 +111,7 @@ dev.off()
 
 ## Data Source & Data Description
 Please see the assignment description:
+
 https://class.coursera.org/exdata-008/human_grading/view/courses/972597/assessments/3/submissions
 
 ## Preparing the data for graphing
