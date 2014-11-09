@@ -1,5 +1,9 @@
 ExploreData-Project1
 ====================
+Assignment link:
+
+https://class.coursera.org/exdata-008/human_grading/view/courses/972597/assessments/3/submissions
+
 
 ## Plot 1
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot1.png "Plot 1")
@@ -60,6 +64,7 @@ graph(plot_df)
 dev.off()
 ```
 
+
 ## Plot 4
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot4.png "Plot 4")
 
@@ -112,7 +117,8 @@ dev.off()
 ## Data Source & Data Description
 Please see the assignment description:
 
-https://class.coursera.org/exdata-008/human_grading/view/courses/972597/assessments/3/submissions
+https://github.com/rdpeng/ExData_Plotting1
+
 
 ## Preparing the data for graphing
 ```
