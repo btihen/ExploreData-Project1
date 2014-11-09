@@ -2,7 +2,6 @@ ExploreData-Project1
 ====================
 
 ## Plot 1
-### Graph
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot1.png "Plot 1")
 ### Relevant Code
 ```
@@ -20,7 +19,6 @@ dev.off()
 
 
 ## Plot 2
-### Graph
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot2.png "Plot 2")
 ### Relevant Code
 ```
@@ -38,7 +36,6 @@ dev.off()
 
 
 ## Plot 3
-### Graph
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot3.png "Plot 3")
 ### Relevant Code
 ```
@@ -61,7 +58,6 @@ dev.off()
 ```
 
 ## Plot 4
-### Graph
 ![alt text](https://github.com/btihen/ExploreData-Project1/blob/master/plot4.png "Plot 4")
 ### Relevant Code
 ```
